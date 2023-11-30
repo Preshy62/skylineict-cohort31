@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora$&family=Roboto+Slab&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lora', serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+/* CSS for the Head starts here */
+
+.head{
+  display: flex;
+  justify-content: space-around;
+  gap: 50%;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+
+.head span{
+  color: gray;
+ 
+}
+
+.head span i{
+  margin-left: 20px;
+}
+
+.head p{
+  font-size: 27px;
+  font-weight: bold;
+
+
+}
+
+/* CSS for the Head ends here */
+
+
+
+/* CSS for the container starts here */
+
+.container h1{
+
+  font-size: 18px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+
+.container-flex{
+
+  display: flex;
+
+}
+
+.first-container{
+  flex: 1;
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  justify-content: space-around;
+  box-shadow: 5px 3px 10px 0 rgb(140, 207, 193);
+  height: 70px;
+  align-items: center;
+  border-radius: 10px;
+  border-left: 3px solid rgb(140, 207, 193);
+  background-color: white;
+  
+
+}
+
+.comp p{
+
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+
+
+}
+
+.comp span{
+  color: gray;
+  font-style: normal;
+  
+  
+   
+}
+
+.score span{
+  color: gray;
+  font-style: italic;
+  
+  
+
+}
+
+.completed span{
+  background-color: rgb(184, 210, 243);
+  color: rgb(118, 48, 231);
+  padding: 3px 8px;
+  border-radius: 5px;
+  
+}
+
+.upcoming span{
+  background-color: rgb(226, 207, 167);
+  color: rgb(192, 119, 24);
+  padding: 3px 8px;
+  border-radius: 5px;
+  
+}
+
+.topic{
+  font-size: 12px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.btn-btn{
+
+  font-weight: bold;
+
+}
