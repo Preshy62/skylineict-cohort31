@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Comic+Neue&family=Overpass:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+
+body{
+
+    background-color: #ffff;
+    width: 100%;
+}
+
+.first{
+
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    background-color: whitesmoke;
+    gap: 10px;
+    /* justify-content: center; */
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Comic Neue', cursive;
+   
+}
+
+.sec{
+
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    background-color: whitesmoke;
+    gap: 10px;
+    /* justify-content: center; */
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+
+.profile{
+
+    background-color: #ffff;
+    width: 80%;
+    padding: 30px;    
+
+}
+
+.image h1{
+
+    text-align: center;    
+
+}
+
+.image p{
+
+    text-align: center;
+
+}
+
+.image img{
+
+    margin-left: 30%;
+    padding: 10px;
+    width: 100px;
+    border-radius: 80%;
+    display: flex;
+    
+}
+
+.info{
+
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.info2{
+
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+
+}
+
+.button{
+
+    color: blueviolet;
+    background-color: #ffff;
+    border: 1px solid blueviolet;
+    margin-left: 28%;
+    padding: 8px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    
+}
