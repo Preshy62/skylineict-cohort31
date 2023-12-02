@@ -1,0 +1,158 @@
+.course1 img{
+    
+    width: 60%;
+    background-color:transparent;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+    
+    
+    }
+    
+    
+    .course2 img{
+    
+        width: 60%;
+    background-color:transparent;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+        
+        }
+    
+    
+        .course3 img{
+    
+            
+            width: 60%;
+            background-color:transparent;
+            margin-left: 60px;
+            margin-top: 20px;
+            
+            }
+    
+    .course-img{
+    
+        background-color:rgb(0, 128, 107);
+        margin-top: 10px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding:30px;
+        border-radius: 10px; 
+        height: 20vh;
+        
+    
+    }
+    
+    
+    
+            .my-course{
+    
+                background-color: lightcyan;
+                margin-top: 10px;
+                width: 93%;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 5px 20px;
+                border-radius: 10px;
+                
+    
+            }
+    
+    
+            .course-flex{
+    
+                display: flex;
+                justify-content: space-between;
+                
+    
+            }  
+    
+    .bus{
+    
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    color:rgb(0, 0, 0);
+    bottom: 20px;
+    border-width: thin;
+    
+    }
+    
+    
+     .course1 a {
+    
+    background-color: blue;
+    
+    }
+    
+    
+    
+        .course1{
+    
+            background-color:white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            width: 30%;
+            height: 350px;
+            border-radius: 10px;
+            transition: all 0.5s ease-in-out;
+            box-shadow: 2px 2px 2px 1px violet;
+            cursor: pointer; 
+        
+    
+        }
+    
+    
+    .course2{
+    
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 30%;
+        height: 350px;
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 2px 2px 2px 1px violet;
+        cursor: pointer; 
+    
+    }
+    
+    
+    .course3{
+    
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 30%;
+        height: 350px;
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 2px 2px 2px 1px violet;
+        cursor: pointer; 
+    
+    
+    }
+    
+    
+    .underline{
+    
+    justify-content: space-between; 
+    display: flex;
+        outline-width: 1px ;
+        outline-color: green;
+        outline-style: solid;
+        border-radius: 10px;
+        gap: px;
+
+    }
+    
