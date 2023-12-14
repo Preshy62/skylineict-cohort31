@@ -1,357 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora$&family=Roboto+Slab&display=swap');
 
 *{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    /* overflow-y: hidden; */
-   
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lora', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
-body{
-    background-color: lightgrey;
-}
 
-/* The section on the left hand side starts here */
+/* CSS for the Head starts here */
 
-.left-side{
-    width: 60%;
-}
-.my-cases{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    align-items: center;
-    padding: 30px 20px;
-    width: 95%;
-
-    margin-top: 30px;
-    border-radius: 3px;
-    margin-bottom: 20px;
-    font-size: 17px;
-    
- }
-
- .see-all{
-    border: solid 1px grey;
-    padding: 6px;
-    border-radius: 5px;
-    margin-right: 10px;
- }
-
-
-
-table {
-   font-size: 18px;
-   border-collapse: collapse;
-   width: 100%;
+.head{
+  display: flex;
+  justify-content: space-around;
+  gap: 50%;
+  align-items: center;
+  margin-top: 40px;
   
 }
 
-td{
-    padding: 37px;
-    background-color: white;
-    border-bottom: 4px solid lightgrey;
-    border-radius: 5px;
-    
-}
-
-.span{
-    font-weight: bolder;
-}
-.active{
-   background-color: rgb(69, 233, 69);
-   color: rgb(86, 158, 86);
-   padding: 10px;
-   border-radius: 15px;
-   font-weight: bold;
-}
-.new{
-    background-color: rgb(230, 172, 131);
-    color: rgb(94, 67, 18);
-    padding: 10px;
-    border-radius: 15px;
-    font-weight: bold;
-
-}
-
-/* The section on the right hand side starts here */
-
-.right-side{
-    width: 35%;
-}
-
-img{
-    width: 30px;
-    height: 42px;
-    border-radius: 50%;
-
-}
-.container-flex{
-    display: flex;
-    gap: 2rem;
-}
-
-.my-inbox{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    padding: 30px 20px;
-    width: 91.5%;
-    margin-top: 30px;
-    border-radius: 3px;
-    margin-bottom: 2px;
-    font-size: 17px;
-    border-radius: 5px;
-}
-
-.view-all{
-    border: solid 1px grey;
-    padding: 6px;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-.right-table td{
-    padding: 37px;
-    background-color: white;
-    border-bottom: 4px solid lightgrey;
-    border-radius: 5px;
-    border-collapse: collapse;
+.head span{
+  color: gray;
  
-    
 }
-.name{
-    font-weight: bolder;
-    padding-right: 30%;
+
+.head span i{
+  margin-left: 20px;
+}
+
+.head p{
+  font-size: 27px;
+  font-weight: bold;
+
+
+}
+
+/* CSS for the Head ends here */
+
+
+
+/* CSS for the container starts here */
+
+.container h1{
+
+  font-size: 18px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 
-/* This is where my mobile responsivenes starts. */
-  /* Here is for Tablet design*/
+.container-flex{
 
-@media (min-width: 1299px) and (max-width:1314px) {
-    td{
-        padding: 37.7px;
-        
-    } 
-    .right-table td{
-        width: 100%;
-    }
-     
-}
-@media (min-width: 1200px) and (max-width: 1298px) {
-    table{
-        font-size: 15px;
-    }
-}
-@media (min-width:1177px) and (max-width:1199px){
-    table{
-        font-size: 14px;
-    }
-}
-@media (min-width:1122px) and (max-width:1176px){
-    table{
-        font-size: 12px;
-    }
-    
-} 
-@media (min-width:1052px) and (max-width:1121px){
-    table{
-        font-size: 10.8px;
-    }
-}
-@media (min-width:1017px) and (max-width:1051px){
-    table{
-        font-size: 9.8px;
-         }
-    .right-table td{ 
-        padding: 37.1px;
-    }  
-    .my-inbox{
-        width: 89%;
-    }  
-    .my-cases{
-        width: 94%;
-    }
-}
-@media (min-width:941px) and (max-width:1016px){
-    .container-flex{
-        flex-direction: column;
-    }
-    .left-side{
-        width: 100%;
-        
-   }
-   table{
-    width: 99%;
-   }
+  display: flex;
 
-   .right-side{
-    width: 73%;
-}
-.my-inbox{
-  width: 93.5%;
-}
 }
 
-@media (min-width:860px) and (max-width:941px){
-    .container-flex{
-        flex-direction: column;
-    }
-    .left-side{
-        width: 100%;
-        
-   }
-   table{
-    width: 99%;
-   }
+.first-container{
+  flex: 1;
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  justify-content: space-around;
+  box-shadow: 5px 3px 10px 0 rgb(140, 207, 193);
+  height: 70px;
+  align-items: center;
+  border-radius: 10px;
+  border-left: 3px solid rgb(140, 207, 193);
+  background-color: white;
+  
 
-   .right-side{
-    width: 73%;
-}
-.my-inbox{
-  width: 96%;
-  font-size: 15px;
-  padding: 30px 18px;
-}
-.my-cases{
-    width: 94.5%;
-}
 }
 
+.comp p{
 
-@media (min-width:820px) and (max-width:859px){
-    .container-flex{
-        flex-direction: column;
-    }
-    .left-side{
-        width: 100%;
-        
-   }
-   table{
-    width: 99%;
-    font-size: 11px;
-   }
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
 
-   .right-side{
-    width: 73%;
-}
-.my-cases{
-    width: 94%;
-}
-.my-inbox{
-  width: 94.5%;
-  font-size: 14px;
-  padding: 30px 13px;
-}
-img{
-    width: 45px;
-    height: 42px;
-    border-radius: 50%;
-}
-}
-@media (min-width:600px) and (max-width:829px){
-    .container-flex{
-        flex-direction: column;
-    }
-    .left-side{
-        width: 100%;
-        
-   }
-   table{
-    width: 99%;
-    font-size: 11px;
-   }
-   .my-cases{
-    width: 92%;
-   }
-
-   .right-side{
-    width: 73%;
-}
-.my-inbox{
-  width: 93.5%;
-  font-size: 14px;
-  padding: 30px 13px;
-}
 }
 
-@media (min-width:550px) and (max-width:600px){
-    .container-flex{
-        flex-direction: column;
-    }
-    .left-side{
-        width: 100%;
-        
-   }
-   table{
-    width: 90%;
-    font-size: 11px;
-   }
-   .my-cases{
-    width: 92%;
-   }
-
-   .right-side{
-    width: 70%;
-}
-td{
-    padding: 33px;
-}
-.my-inbox{
-  width: 90%;
-  font-size: 14px;
-  padding: 30px 5px;
-}
-img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
+.comp span{
+  color: gray;
+  font-style: normal;
 }
 
-@media (min-width:500px) and (max-width:550px){
-    .container-flex{
-        flex-direction: column;
-    }
-    /* .left-side{
-        width: 80%;
-        
-   }
-   table{
-    width: 90%;
-    font-size: 11px;
-   }
-   .my-cases{
-    width: 90%;
-   }
+.score span{
+  color: gray;
+  font-style: italic;
+}
 
-   .right-side{
-    width: 100%;
+.completed span{
+  background-color: rgb(184, 210, 243);
+  color: rgb(118, 48, 231);
+  padding: 3px 8px;
+  border-radius: 5px;
+  
 }
-td{
-    padding: 17px 20px;
+
+.upcoming span{
+  background-color: rgb(226, 207, 167);
+  color: rgb(192, 119, 24);
+  padding: 3px 8px;
+  border-radius: 5px;
+  
 }
-.my-inbox{
-  width: 70%;
-  font-size: 14px;
-  padding: 25px 15px;
+
+.topic{
+  font-size: 12px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
 }
-img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-.right-table td{
-    padding: 25px 15px;
-   
-} */
-}
-@media (max-width: 499px){
-    .container-flex{
-        flex-direction: column;
-    }
+
+.btn-btn{
+
+  font-weight: bold;
 
 }

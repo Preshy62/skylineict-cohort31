@@ -1,0 +1,97 @@
+table, th, td{
+    border: 2px solide;
+    border-collapse: collapse ;
+    border-color: rgb(211, 104, 11);
+    
+ .btn {
+    border-radius: 40;
+    border: 0;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 1rem 0;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+ }
+ .btn--primary{
+    background-color: red;
+ }
+  
+  
+  }
+  
+  table, td, th{
+      border: 2px solid;
+  }
+  .container{
+  
+      width:  80%;
+      margin: auto;
+      padding: 100px;
+  
+  
+  }
+  
+  
+  table{
+  
+      width: 100%;
+  
+  }
+  
+  th{
+  padding:  20px;
+  background-color: dodgerblue;
+  color: white;
+  
+  }
+  
+  td{
+  
+      padding:  10px;
+      background-color: azure;
+  }
+   caption{
+       background:  yellow;
+       width:  100%;
+       padding: 10px;
+       margin: auto;
+       margin-bottom: 10% ;
+       border-radius: 10px;
+       font-weight:bolder;
+  
+   }
+
+
+
+   icon{
+       color: red;
+   }
+  
+   
+   .mark{
+    background-color: rgb(9, 247, 9);
+   }
+
+
+  
+  tr:nth-child(even){
+      background-color: lightgray;
+  }
+  
+  tr:hover{
+      background-color: darkgray;
+      
+  }
+  .btn--primary{
+    background-color: red;
+
+  }
+
+
+
+  .btn--secondary {
+    background-color: orange
+
+  }

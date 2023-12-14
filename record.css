@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(45deg, #ffff 50%, black 100%);
+}
+
+.header{
+    padding: 30px;
+    display: flex;
+    background-color: transparent;
+    padding-top: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header:hover{
+    box-shadow: rgb(129, 55, 55);
+}
+
+.search{
+    width: 80%;
+    position: relative;
+    
+}
+
+.search input{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.search button{
+
+    margin-top: 0.2rem;
+    position: absolute;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    padding: 5px;
+
+}
+
+.newest select{
+    padding: 5px;
+    border-radius: 10px;
+    width: 80%;
+    margin-right: 100px;
+
+}
+
+.lawrence button{
+    width: 110px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    margin-bottom: 80px;
+}
+
+table{
+    width: 80%;
+    font-size: 10px;
+}
+
+td, th{
+    padding: 10px;
+    text-align: center;
+}
+
+i{
+    background-color: #ffff;
+    gap: 50px;
+    font-size: 40x;
+    border-radius: 50px;
+
+}
+
+table, th, td{
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+    border-color: dodgerblue;
+}
